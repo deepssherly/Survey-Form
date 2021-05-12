@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">Fill the above mentioned details!!</p>
+    <div id="survey">
+        <form action="" id="survey-form">
+            <div class="group">
+                <label for="name" id="name-label">Name : </label><br>
+                <input id="name" type="text" placeholder="Enter your name"><br>
+            </div>
+            <div class="group">
+                <label for="clgid" id="clgid-label">College id : </label><br>
+                <input id="clgid" type="text" placeholder="Enter your college id"><br>
+            </div>
+            <div class="group">
+                <label for="email" id="email-label">Email : </label><br>
+                <input id="email" type="mail" placeholder="Enter your mailid"><br>
+            </div>
+            <div class="group">
+                <label for="number" id="number-label">Phone number : </label><br>
+                <input id="number" type="number" placeholder="Enter your mobile no"><br>
+            </div>
+            <div class="group">
+                <label for="clg" id="clg-label">College Name :  </label><br>
+                <input id="clg" type="text" placeholder="Enter your college name"><br>
+            </div>
+            <div class="group">
+                <label for="dropdown" id="dropdown-label">Qualification : </label><br>
+                <select id="dropdown">
+                    <option value=""></option>
+                    <option value="B.E/B.Tech">B.E/B.Tech</option>
+                    <option value="BSc">BSc</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BA">BA</option>
+                    <option value="BBA">BBA</option>
+                </select><br>
+            </div>
+            <div class="group">
+                <p>How was the event organised : </p>
+                <input type="radio" id="ex" name="execellent" value="Execellent">
+                <label for="ex">Execellent</label><br>
+                <input type="radio" id="vg" name="verygood" value="VeryGood">
+                <label for="vg">Very Good</label><br>
+                <input type="radio" id="g1" name="good" value="Good">
+                <label for="g1">Good</label><br>
+                <input type="radio" id="sa" name="satisfy" value="satisfy">
+                <label for="sa">Satisfied</label><br>
+            </div>
+            <div class="group">
+                <p>Rate the event : </p>
+                <input type="radio" id="1" name="one" value="one">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="two" value="two">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="three" value="three">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="four" value="four">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="five" value="five">
+                <label for="5">5</label><br>
+            </div>
+            <div class="group">
+
+                <label for="text" id="number-label">Any feedback about the event : </label><br>
+                <textarea id="text" placeholder="Enter your comments" row="5" col="50"></textarea>
+            </div>
+            <button type="submit">SUBMIT</button> </form>
+    </div>
+    <section class="footer ">
+        <div class="icons ">
+            <p>Made by Deepthi Sherly || Contact :
+                <a href="https://github.com/deepssherly" target="_blank"><i class="fa fa-github fa-lg "></i></a>
+                <a href="https://www.linkedin.com/in/deepthi-sherly-j/" target="_blank"><i class="fa fa-linkedin fa-lg "></i></a>
+            </p>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
